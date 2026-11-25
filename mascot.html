@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mascot</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap">
+      <a class="brand" href="index.html"><span class="brand-mark"><span></span></span>Mascot Showcase</a>
+      <nav class="nav" aria-label="Main">
+        <a href="index.html">Gallery</a>
+        <a href="#emotions" aria-current="page">Emotions</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="detail-head">
+      <a class="back" href="index.html">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M13 8H3M7 4L3 8l4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        All mascots
+      </a>
+      <div class="pager">
+        <a class="icon-btn" id="prev" aria-label="Previous mascot"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M10 3L5 8l5 5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        <a class="icon-btn" id="next" aria-label="Next mascot"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M6 3l5 5-5 5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </div>
+    </div>
+
+    <!-- Hero -->
+    <section class="hero2">
+      <div class="stage-card">
+        <div class="stage" id="stage">
+          <img class="hero-img" id="heroImg" alt="" decoding="async" />
+        </div>
+      </div>
+
+      <div class="panel hero-info">
+        <div class="eyebrow-row"><span class="chip" id="styleChip"></span><span class="chip ghost" id="traitChip"></span></div>
+        <h1 id="name">Mascot</h1>
+        <p class="lead" id="description"></p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#emotions">
+            Browse emotions
+            <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M8 3v10M4 9l4 4 4-4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Emotion gallery -->
+    <section class="section" id="emotions">
+      <div class="section-head">
+        <div>
+          <h3>Emotions</h3>
+          <p id="emotionsSub">Every emotion from this mascot’s board in Figma.</p>
+        </div>
+        <span class="count" id="emotionsCount"></span>
+      </div>
+      <div class="emo-grid" id="emoGrid"></div>
+    </section>
+
+    <section class="section">
+      <h3>Turnaround reference</h3>
+      <p>The original eight-view sheet for this style from Figma.</p>
+      <div class="turn"><img id="turnaround" alt="" loading="lazy" /></div>
+    </section>
+
+    <section class="section" style="padding-bottom: 72px">
+      <h3>More mascots</h3>
+      <p>Each style has its own emotion collection.</p>
+      <div class="others" id="others"></div>
+    </section>
+  </main>
+
+  <!-- Emotion preview panel -->
+  <dialog class="preview" id="preview" aria-labelledby="pvTitle">
+    <div class="pv-sheet" id="pvSheet">
+      <div class="pv-top">
+        <div class="pv-who"><img id="pvAvatar" alt="" /><div><strong id="pvMascot"></strong><span id="pvStyle"></span></div></div>
+        <button class="icon-btn" id="pvClose" type="button" aria-label="Close preview">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M4 4l8 8M12 4l-8 8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        </button>
+      </div>
+      <div class="pv-stage" id="pvStage">
+        <button class="pv-nav prev" id="pvPrev" type="button" aria-label="Previous emotion"><svg width="18" height="18" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M10 3L5 8l5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <div class="pv-imgwrap"><img class="pv-img" id="pvImg" alt="" /></div>
+        <button class="pv-nav next" id="pvNext" type="button" aria-label="Next emotion"><svg width="18" height="18" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M6 3l5 5-5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <span class="pv-count" id="pvCount"></span>
+      </div>
+      <div class="pv-info" aria-live="polite">
+        <h2 id="pvTitle"></h2>
+        <p id="pvDesc"></p>
+      </div>
+      <div class="pv-strip" id="pvStrip" role="tablist" aria-label="Emotions for this mascot"></div>
+    </div>
+  </dialog>
+
+  <script src="js/mascots.js"></script>
+  <script src="js/detail.js"></script>
+</body>
+</html>
