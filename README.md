@@ -1,9 +1,9 @@
 # Mascot Showcase
 
-A static gallery for the mascot styles in the Figma file *Mascot Exploration*, page **Review** (node `121:51`). The Review page is the source of truth: it has five mascot styles, each with its own board of 7 emotions.
+A static gallery for the mascot styles in the Figma file *Mascot Exploration*, page **Review** (node `121:51`). The Review page is the source of truth: it has seven mascot styles, each with its own board of 7 emotions.
 
 - `index.html` is the gallery: one card per style with its front-facing image, style name and emotion count.
-- `mascot.html?id=01` … `05` is each style's details page. It has:
+- `mascot.html?id=01` … `07` is each style's details page. It has:
   - the front-facing hero image
   - an emotion gallery with only that style's emotions
   - a preview panel: prev/next, a thumbnail strip, ←/→/Home/End/Esc, swipe on touch, and deep links such as `#emotion=03-hi`
@@ -32,5 +32,7 @@ Emotion images are the transparent cut-outs from each style's own Figma board, s
 | 03 | Sunny Bandana Chick | 121:602 |
 | 04 | Fluffy Crest Chick | 121:629 |
 | 05 | Toy Bird | 121:709 |
+| 06 | Flat Cartoon Bird | 123:3813 |
+| 07 | Glossy 3D Chick | 123:3839 |
 
 Emotions, in the order of each Figma board: Reading Book, Note Taking, Holding Trophy, Hi, Clapping, Thumbs Up, Error State.

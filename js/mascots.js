@@ -73,6 +73,22 @@
       front: 'assets/fronts/05.png',
       emotions: emotions('05'),
       turnaround: 'assets/turnarounds/05.webp'
+    },
+    {
+      id: '06', name: 'Mascot 06', style: 'Flat Cartoon Bird', trait: 'Friendly',
+      description: 'Flat cartoon blue bird with a pink crest, pink wings and big round eyes with a yellow beak.',
+      figmaNode: '123:3813', tint: '#E8F1FF',
+      front: 'assets/fronts/06.png',
+      emotions: emotions('06'),
+      turnaround: 'assets/turnarounds/06.webp'
+    },
+    {
+      id: '07', name: 'Mascot 07', style: 'Glossy 3D Chick', trait: 'Bold',
+      description: 'Glossy 3D blue chick with a pink crest, pink feet and a rounded, soft-shaded body.',
+      figmaNode: '123:3839', tint: '#E6F4FF',
+      front: 'assets/fronts/07.png',
+      emotions: emotions('07'),
+      turnaround: 'assets/turnarounds/07.webp'
     }
   ];
 
