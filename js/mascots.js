@@ -35,16 +35,8 @@
 
   window.MASCOTS = [
     {
-      id: '01', name: 'Mascot 01', style: 'Glossy Blue Bird', trait: 'Cheerful',
-      description: 'Glossy blue bird with bright pink wings and a big open smile.',
-      figmaNode: '121:68', tint: '#E9EEFF',
-      front: 'assets/fronts/01.png',
-      emotions: emotions('01'),
-      turnaround: 'assets/turnarounds/01.webp'
-    },
-    {
       id: '02', name: 'Mascot 02', style: 'Orange-Cap Bird', trait: 'Warm',
-      description: 'Round blue bird with an orange head, a pink frilled collar and a happy pink beak.',
+      description: 'Round blue bird with an orange head, a pink frilled collar, a pink tail and a happy pink beak.',
       figmaNode: '121:505', tint: '#FFF1E2',
       front: 'assets/fronts/02.png',
       emotions: emotions('02'),
@@ -75,28 +67,20 @@
       turnaround: 'assets/turnarounds/05.webp'
     },
     {
-      id: '06', name: 'Mascot 06', style: 'Flat Cartoon Bird', trait: 'Friendly',
-      description: 'Flat cartoon blue bird with a pink crest, pink wings and big round eyes with a yellow beak.',
+      id: '06', name: 'Mascot 06', style: 'Flat Cartoon Chick', trait: 'Friendly',
+      description: 'Flat cartoon chick with a yellow head, a blue body, pink wings and big round eyes with a blue beak.',
       figmaNode: '123:3813', tint: '#E8F1FF',
       front: 'assets/fronts/06.png',
       emotions: emotions('06'),
       turnaround: 'assets/turnarounds/06.webp'
     },
     {
-      id: '07', name: 'Mascot 07', style: 'Glossy 3D Chick', trait: 'Bold',
-      description: 'Glossy 3D blue chick with a pink crest, pink feet and a rounded, soft-shaded body.',
-      figmaNode: '123:3839', tint: '#E6F4FF',
+      id: '07', name: 'Mascot 07', style: 'Two-Tone 3D Chick', trait: 'Sunny',
+      description: 'Round 3D chick with a yellow head, a blue body, a pink crest and pink feet.',
+      figmaNode: '139:3917', tint: '#FFF5DA',
       front: 'assets/fronts/07.png',
       emotions: emotions('07'),
       turnaround: 'assets/turnarounds/07.webp'
-    },
-    {
-      id: '08', name: 'Mascot 08', style: 'Two-Tone 3D Chick', trait: 'Sunny',
-      description: 'Round 3D chick with a yellow head, a blue body, a pink crest and pink feet.',
-      figmaNode: '139:3917', tint: '#FFF5DA',
-      front: 'assets/fronts/08.png',
-      emotions: emotions('08'),
-      turnaround: 'assets/turnarounds/08.webp'
     }
   ];
 
