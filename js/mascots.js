@@ -89,6 +89,14 @@
       front: 'assets/fronts/07.png',
       emotions: emotions('07'),
       turnaround: 'assets/turnarounds/07.webp'
+    },
+    {
+      id: '08', name: 'Mascot 08', style: 'Two-Tone 3D Chick', trait: 'Sunny',
+      description: 'Round 3D chick with a yellow head, a blue body, a pink crest and pink feet.',
+      figmaNode: '139:3917', tint: '#FFF5DA',
+      front: 'assets/fronts/08.png',
+      emotions: emotions('08'),
+      turnaround: 'assets/turnarounds/08.webp'
     }
   ];
 
