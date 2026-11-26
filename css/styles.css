@@ -44,6 +44,8 @@ img { display: block; max-width: 100%; }
 .eyebrow { display: inline-flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 600; color: var(--ink-2); background: var(--surface); border: 1px solid var(--line); padding: 6px 12px 6px 8px; border-radius: 999px; box-shadow: var(--shadow-sm); }
 .eyebrow i { width: 8px; height: 8px; border-radius: 50%; background: #3ac27b; box-shadow: 0 0 0 4px rgba(58, 194, 123, 0.15); }
 .hero h1 { text-wrap: balance; font-family: var(--font-display); font-weight: 700; font-size: clamp(40px, 6vw, 68px); line-height: 1.02; letter-spacing: -0.035em; margin: 20px 0 0; }
+.hero-brand { white-space: nowrap; }
+.hero-logo { display: inline-block; height: 0.95em; width: auto; vertical-align: -0.14em; }
 
 .grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; padding-bottom: 96px; }
 @media (max-width: 960px) { .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
