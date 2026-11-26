@@ -35,52 +35,52 @@
 
   window.MASCOTS = [
     {
-      id: '02', name: 'Mascot 02', style: 'Orange-Cap Bird', trait: 'Warm',
+      id: '01', name: 'Mascot 01', style: 'Orange-Cap Bird', trait: 'Warm',
       description: 'Round blue bird with an orange head, a pink frilled collar, a pink tail and a happy pink beak.',
       figmaNode: '121:505', tint: '#FFF1E2',
+      front: 'assets/fronts/01.png',
+      emotions: emotions('01'),
+      turnaround: 'assets/turnarounds/01.webp'
+    },
+    {
+      id: '02', name: 'Mascot 02', style: 'Sunny Bandana Chick', trait: 'Curious',
+      description: 'Sunny yellow chick with a pink bandana, big feathery pink wings and a blue beak.',
+      figmaNode: '121:602', tint: '#FFF4DC',
       front: 'assets/fronts/02.png',
       emotions: emotions('02'),
       turnaround: 'assets/turnarounds/02.webp'
     },
     {
-      id: '03', name: 'Mascot 03', style: 'Sunny Bandana Chick', trait: 'Curious',
-      description: 'Sunny yellow chick with a pink bandana, big feathery pink wings and a blue beak.',
-      figmaNode: '121:602', tint: '#FFF4DC',
+      id: '03', name: 'Mascot 03', style: 'Fluffy Crest Chick', trait: 'Playful',
+      description: 'Fluffy yellow chick with a pink feather crest, a blue feathered body and pink tail fans.',
+      figmaNode: '121:629', tint: '#FFF6D8',
       front: 'assets/fronts/03.png',
       emotions: emotions('03'),
       turnaround: 'assets/turnarounds/03.webp'
     },
     {
-      id: '04', name: 'Mascot 04', style: 'Fluffy Crest Chick', trait: 'Playful',
-      description: 'Fluffy yellow chick with a pink feather crest, a blue feathered body and pink tail fans.',
-      figmaNode: '121:629', tint: '#FFF6D8',
+      id: '04', name: 'Mascot 04', style: 'Toy Bird', trait: 'Gentle',
+      description: 'Toy-like bird with a smooth yellow head and a pink sash across its blue chest.',
+      figmaNode: '121:709', tint: '#FFF3DD',
       front: 'assets/fronts/04.png',
       emotions: emotions('04'),
       turnaround: 'assets/turnarounds/04.webp'
     },
     {
-      id: '05', name: 'Mascot 05', style: 'Toy Bird', trait: 'Gentle',
-      description: 'Toy-like bird with a smooth yellow head and a pink sash across its blue chest.',
-      figmaNode: '121:709', tint: '#FFF3DD',
+      id: '05', name: 'Mascot 05', style: 'Flat Cartoon Chick', trait: 'Friendly',
+      description: 'Flat cartoon chick with a yellow head, a blue body, pink wings and big round eyes with a blue beak.',
+      figmaNode: '123:3813', tint: '#E8F1FF',
       front: 'assets/fronts/05.png',
       emotions: emotions('05'),
       turnaround: 'assets/turnarounds/05.webp'
     },
     {
-      id: '06', name: 'Mascot 06', style: 'Flat Cartoon Chick', trait: 'Friendly',
-      description: 'Flat cartoon chick with a yellow head, a blue body, pink wings and big round eyes with a blue beak.',
-      figmaNode: '123:3813', tint: '#E8F1FF',
+      id: '06', name: 'Mascot 06', style: 'Two-Tone 3D Chick', trait: 'Sunny',
+      description: 'Round 3D chick with a yellow head, a blue body, a pink crest and pink feet.',
+      figmaNode: '139:3917', tint: '#FFF5DA',
       front: 'assets/fronts/06.png',
       emotions: emotions('06'),
       turnaround: 'assets/turnarounds/06.webp'
-    },
-    {
-      id: '07', name: 'Mascot 07', style: 'Two-Tone 3D Chick', trait: 'Sunny',
-      description: 'Round 3D chick with a yellow head, a blue body, a pink crest and pink feet.',
-      figmaNode: '139:3917', tint: '#FFF5DA',
-      front: 'assets/fronts/07.png',
-      emotions: emotions('07'),
-      turnaround: 'assets/turnarounds/07.webp'
     }
   ];
 
